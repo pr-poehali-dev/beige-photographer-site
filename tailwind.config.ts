@@ -61,6 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				beige: {
+					50: "#FEFDFB",
+					100: "#F9F7F4", 
+					200: "#F5F1EA",
+					300: "#F0E9DE",
+					400: "#E8DCC8",
+					500: "#D2B48C",
+					600: "#C19A6B",
+					700: "#8B7355",
+					800: "#6B5B47",
+					900: "#4A3F34",
 				}
 			},
 			borderRadius: {
@@ -88,7 +100,9 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'scale-in': 'scale-in 0.3s ease-out'
 			}
 		}
 	},
