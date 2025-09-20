@@ -50,7 +50,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-beige-300">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div className="font-cormorant text-2xl font-semibold text-primary">
@@ -110,7 +110,7 @@ const Index = () => {
           <h2 className="font-cormorant text-4xl font-light text-center mb-12">Портфолио</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolioImages.map((image, index) => (
-              <Card key={index} className="group overflow-hidden border-beige-300 hover:shadow-lg transition-all duration-300 animate-scale-in">
+              <Card key={index} className="group overflow-hidden border-gray-200 hover:shadow-lg transition-all duration-300 animate-scale-in">
                 <CardContent className="p-0">
                   <div className="aspect-[4/3] overflow-hidden">
                     <img
@@ -131,7 +131,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 px-4 bg-secondary/30">
+      <section id="about" className="py-16 px-4 bg-cream-100/50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-cormorant text-4xl font-light mb-8">Обо мне</h2>
@@ -170,11 +170,11 @@ const Index = () => {
         <div className="container mx-auto">
           <h2 className="font-cormorant text-4xl font-light text-center mb-12">Услуги и цены</h2>
           <div className="max-w-2xl mx-auto">
-            <Card className="border-beige-300">
+            <Card className="border-gray-200">
               <CardContent className="p-8">
                 <div className="space-y-6">
                   {services.map((service, index) => (
-                    <div key={index} className="flex justify-between items-center py-4 border-b border-beige-200 last:border-b-0">
+                    <div key={index} className="flex justify-between items-center py-4 border-b border-gray-100 last:border-b-0">
                       <div>
                         <h3 className="font-medium text-lg">{service.name}</h3>
                       </div>
@@ -184,7 +184,7 @@ const Index = () => {
                     </div>
                   ))}
                 </div>
-                <div className="mt-8 p-4 bg-secondary/50 rounded-lg">
+                <div className="mt-8 p-4 bg-cream-200/50 rounded-lg">
                   <p className="text-sm text-muted-foreground text-center">
                     Цены указаны за базовую съемку. Стоимость может варьироваться в зависимости от сложности маршрута и времени съемки.
                   </p>
@@ -196,11 +196,11 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 px-4 bg-secondary/30">
+      <section id="contact" className="py-16 px-4 bg-cream-100/50">
         <div className="container mx-auto">
           <h2 className="font-cormorant text-4xl font-light text-center mb-12">Контакты</h2>
           <div className="max-w-2xl mx-auto">
-            <Card className="border-beige-300">
+            <Card className="border-gray-200">
               <CardContent className="p-8">
                 <div className="space-y-6">
                   <div className="flex items-center space-x-4">
@@ -245,7 +245,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 border-t border-beige-300">
+      <footer className="py-8 px-4 border-t border-gray-200">
         <div className="container mx-auto text-center">
           <p className="text-muted-foreground">
             © 2024 Фотограф Лазаревской. Все права защищены.
