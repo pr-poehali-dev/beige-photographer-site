@@ -8,19 +8,29 @@ const Index = () => {
 
   const portfolioImages = [
     {
-      src: '/img/ed1966c7-1ec1-4dd7-a5ad-e2943ea604f7.jpg',
-      title: 'Побережье Лазаревской',
-      description: 'Золотые часы на черноморском побережье'
+      src: 'https://cdn.poehali.dev/files/7a972a20-846b-4999-a3d0-5f4f624ea4f9.jpg',
+      title: 'Розовые облака над мостом',
+      description: 'Магический закат окрашивает небо в нежные тона'
     },
     {
-      src: '/img/0bb07414-7961-4e22-8d10-4c35a6fec97e.jpg',
-      title: 'Туманный лес',
-      description: 'Утренний туман в горных лесах'
+      src: 'https://cdn.poehali.dev/files/f689ed8e-bc68-408c-ad6f-600403274b8f.jpg',
+      title: 'Золотой час на берегу',
+      description: 'Силуэт человека на фоне заката над морем'
     },
     {
-      src: '/img/036d9709-1c74-4ade-85bf-fb9ad7e4d2e9.jpg',
-      title: 'Закат в горах',
-      description: 'Вечерние краски над хребтами'
+      src: 'https://cdn.poehali.dev/files/5d3d2110-70e1-43f0-81ff-84df45a12205.jpg',
+      title: 'Уединение среди камней',
+      description: 'Философское размышление на каменистом берегу'
+    },
+    {
+      src: 'https://cdn.poehali.dev/files/0b0ee1af-b477-4b28-8208-826f4b9f6f7c.jpg',
+      title: 'Ночная луна',
+      description: 'Загадочный лунный пейзаж в темном небе'
+    },
+    {
+      src: 'https://cdn.poehali.dev/files/20035b1d-01fd-4cdc-85c9-23b58340627a.jpg',
+      title: 'Портрет местного жителя',
+      description: 'Выразительный взгляд рыжего кота'
     }
   ];
 
@@ -145,8 +155,8 @@ const Index = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img
-                  src={portfolioImages[1].src}
-                  alt="Фотограф"
+                  src="https://cdn.poehali.dev/files/5d3d2110-70e1-43f0-81ff-84df45a12205.jpg"
+                  alt="Фотограф за работой"
                   className="w-full h-64 object-cover"
                 />
               </div>
